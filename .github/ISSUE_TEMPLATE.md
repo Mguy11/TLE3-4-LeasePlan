@@ -1,5 +1,14 @@
-Steps to reproduce the issue
-Expected result
-Actual result
-System information (as much as possible)
-Additional comments
+---
+name: Issue template
+about: Issue template
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+- [ ]  **Hebben je de issue met het team besproken?**
+
+- [ ]  **Is de issue getest?**
+
+- [ ]  **Is de issue compleet**
