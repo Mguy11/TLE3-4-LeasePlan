@@ -1,19 +1,17 @@
-README TLE 3 & 4
-===
+# README TLE 3 & 4 - FLEXISTANT APP
+## AI AS A DESIGN MATERIAL
 
-Repo van Team 6
----
+##### Richtlijn Versiebeheer
+> v**0**.0.1
 
-```
-v**0**.0.1
-Hier wordt aangegeven wat de versie van de app is; de huidige versie is 0, omdat we op dit moment bezig zijn met het uitwerken van een protoype
-```
-```
-v0.**0**.1
-Voor iedere grote update van een huidige versie wordt hier aangegeven
-```
-```
-v0.0.**1**
-Hier wordt aangegeven welk van de zestien schermen is aangepast
-```
+Geef hierme aan dat de app zoveel verandering ondergaan is, dat deze in een nieuwe versie wordt: We beginnen bij versie 0 omdat we bezig zijn met het uitwerken van het prototype
+
+> v0.**0**.1
+
+Geef hiermee aan dat er een grote aanpassing was aan de huidige versie
+
+> v0.0.**1**
+
+Geef hiermee aan welk van de zestien schermen is aangepast
+
 > voorbeeld: *v1.3.14.3 zou zijn: eerste versie van de app, derde aanpassing aan deze eerste versie, aanpassing van het viertiende scherm, derde aanpassing van dit scherm*
