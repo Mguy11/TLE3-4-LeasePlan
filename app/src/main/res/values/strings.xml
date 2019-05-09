@@ -26,4 +26,11 @@
     <string name="voertuigen">Voertuigen</string>
     <!--einde overzicht voertuigen-->
 
+    <!--overzicht auto-->
+    <string name="auto">auto</string>
+    <string name="kenteken">kenteken</string>
+    <string name="button_auto_leasen">Auto leasen</string>
+    <string name="button_facturen_bekijken">Facturen bekijken</string>
+    <!--einde overzicht auto-->
+
 </resources>
