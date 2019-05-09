@@ -19,7 +19,7 @@
     <string name="button_changepassword">Change password</string>
     <string name="button_goto_overview">overview</string>
     <string name="user_profile_picture">user profile picture</string>
-    <string name="textview_settingsmain">Main settings</string>
+    <string name="textview_settingsmain">Main Settings</string>
     <string name="textview_syncagenda">Synchronise Google Calendar</string>
     <string name="textview_syncemail">Synchronise Email</string>
     <string name="textview_syncgoogleactivities">Synchronise Google Activites</string>

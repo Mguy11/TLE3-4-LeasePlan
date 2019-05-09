@@ -10,7 +10,7 @@
         android:id="@+id/textView_settingsMain"
         android:layout_width="310dp"
         android:layout_height="40dp"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="68dp"
         android:layout_marginTop="140dp"
         android:text="@string/textview_settingsmain"
         android:textSize="25sp"
@@ -44,9 +44,9 @@
     <Switch
         android:id="@+id/button_syncAgenda"
         android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_height="20dp"
         android:layout_marginStart="200dp"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="196dp"
         app:layout_constraintStart_toStartOf="@+id/textView_syncAgenda"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -77,9 +77,9 @@
     <Switch
         android:id="@+id/button_syncEmail"
         android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_height="20dp"
         android:layout_marginStart="200dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="226dp"
         app:layout_constraintStart_toStartOf="@+id/textView_syncEmail"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -99,7 +99,7 @@
 
     <TextView
         android:id="@+id/textView_syncGoogleActivities"
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="20dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="260dp"
@@ -110,9 +110,9 @@
     <Switch
         android:id="@+id/button_syncGoogleActivities"
         android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_height="20dp"
         android:layout_marginStart="200dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="256dp"
         app:layout_constraintStart_toStartOf="@+id/textView_syncGoogleActivities"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -125,14 +125,14 @@
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/agenda_icon"
         app:layout_constraintEnd_toStartOf="@+id/textView_connectGoogleHome"
-        app:layout_constraintHorizontal_bias="0.772"
+        app:layout_constraintHorizontal_bias="0.818"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_home_black_24dp" />
 
     <TextView
         android:id="@+id/textView_connectGoogleHome"
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="20dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="290dp"
@@ -143,9 +143,9 @@
     <Switch
         android:id="@+id/button_connectGoogleHome"
         android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_height="20dp"
         android:layout_marginStart="200dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="286dp"
         app:layout_constraintStart_toStartOf="@+id/textView_connectGoogleHome"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -165,7 +165,7 @@
 
     <TextView
         android:id="@+id/textView_nightMode"
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="20dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="320dp"
@@ -176,9 +176,9 @@
     <Switch
         android:id="@+id/button_nightMode"
         android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_height="20dp"
         android:layout_marginStart="200dp"
-        android:layout_marginTop="310dp"
+        android:layout_marginTop="316dp"
         app:layout_constraintStart_toStartOf="@+id/textView_nightMode"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -198,7 +198,7 @@
 
     <TextView
         android:id="@+id/textView_notifications"
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="20dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="350dp"
@@ -209,9 +209,9 @@
     <Switch
         android:id="@+id/button_notifications"
         android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_height="20dp"
         android:layout_marginStart="200dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="346dp"
         app:layout_constraintStart_toStartOf="@+id/textView_notifications"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -219,8 +219,8 @@
         android:id="@+id/textView_settingsOther"
         android:layout_width="310dp"
         android:layout_height="40dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="420dp"
         android:text="@string/textview_settingsothers"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -231,7 +231,7 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="480dp"
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/textview_carpreferences"
         app:layout_constraintEnd_toStartOf="@+id/textView_carPreferences"
@@ -245,7 +245,7 @@
         android:layout_width="150dp"
         android:layout_height="20dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="480dp"
         android:text="@string/textview_carpreferences"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -255,7 +255,7 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginStart="62dp"
-        android:layout_marginTop="490dp"
+        android:layout_marginTop="508dp"
         android:layout_marginEnd="12dp"
         android:contentDescription="@string/accessablilty_icon"
         app:layout_constraintEnd_toStartOf="@+id/textView_accessability"
@@ -269,7 +269,7 @@
         android:layout_width="150dp"
         android:layout_height="20dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="490dp"
+        android:layout_marginTop="508dp"
         android:text="@string/textview_accessablitiy"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -279,7 +279,7 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="540dp"
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/textview_deleteprofile"
         app:layout_constraintEnd_toStartOf="@+id/textView_deleteProfile"
@@ -293,7 +293,7 @@
         android:layout_width="150dp"
         android:layout_height="20dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="540dp"
         android:text="@string/textview_deleteprofile"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -303,7 +303,7 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="550"
+        android:layout_marginTop="568dp"
         android:layout_marginEnd="12dp"
         android:contentDescription="@string/shareapplication_icon"
         app:layout_constraintEnd_toStartOf="@+id/textView_shareFlexistantApp"
@@ -317,7 +317,7 @@
         android:layout_width="150dp"
         android:layout_height="20dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="568dp"
         android:text="@string/textview_shareflexistantapp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
