@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".overzicht_facturen"></activity>
+        <activity android:name=".overzicht_auto"></activity>
+        <activity android:name=".overzicht_voertuigen" />
+        <activity android:name=".overzicht_flexlease" />
+        <activity android:name=".overzicht_facturen" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
