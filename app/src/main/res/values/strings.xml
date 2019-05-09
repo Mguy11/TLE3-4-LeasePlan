@@ -5,11 +5,25 @@
     <string name="title_notifications">Notifications</string>
     <!--overzicht facturen-->
     <string name="factuur_pagina">Facturen</string>
-    <string name="next">-></string>
-    <string name="previous"> -- </string>
+    <string name="button_next">-></string>
+    <string name="button_previous"> -- </string>
     <string name="factuur_tabel_row1">Type</string>
     <string name="factuur_tabel_row2">Bedrag</string>
     <string name="factuur_tabel_row3">Datum</string>
     <!--einde overzicht facturen-->
+
+    <!--overzicht flex-lease-->
+    <string name="flexlease">Flex-Lease</string>
+    <string name="flexlease_voorkeuren">Geef uw voorkeuren aan:</string>
+    <string name="flexlease_keuze1">Type</string>
+    <string name="flexlease_keuze2">Zitplaatsen</string>
+    <string name="flexlease_keuze3">Trekhaak</string>
+    <string name="flexlease_keuze4">L/km</string>
+    <string name="flexlease_keuze5">Optie</string>
+    <!--einde overzicht flex-lease-->
+
+    <!--overzicht voertuigen-->
+    <string name="voertuigen">Voertuigen</string>
+    <!--einde overzicht voertuigen-->
 
 </resources>
