@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activityMelding">
+    tools:context=".activity_melding">
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
@@ -41,6 +41,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="290dp"
+            android:contentDescription="@string/test"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="371dp"
             tools:srcCompat="@tools:sample/avatars" />
@@ -49,20 +50,20 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/textview" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/textview" />
 
         <Button
             android:id="@+id/akkoordBtn"
             android:layout_width="143dp"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_green_dark"
-            android:text="Ja"
+            android:text="@string/ja"
             android:textColor="@android:color/white" />
 
         <Button
@@ -70,7 +71,7 @@
             android:layout_width="141dp"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_red_dark"
-            android:text="Nee"
+            android:text="@string/nee"
             android:textColor="@android:color/white" />
 
     </LinearLayout>

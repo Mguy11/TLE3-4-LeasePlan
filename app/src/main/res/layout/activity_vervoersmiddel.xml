@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activityVervoersmiddel">
+    tools:context=".activity_vervoersmiddel">
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
@@ -41,6 +41,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/avatar"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="371dp"
             tools:srcCompat="@tools:sample/avatars" />
@@ -54,35 +55,35 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="RadioButton" />
+                android:text="@string/radiobutton" />
 
             <RadioButton
                 android:id="@+id/vraag2RB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="RadioButton" />
+                android:text="@string/radiobutton" />
 
             <RadioButton
                 android:id="@+id/vraag3RB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="RadioButton" />
+                android:text="@string/radiobutton" />
 
             <RadioButton
                 android:id="@+id/vraag4RB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="RadioButton" />
+                android:text="@string/radiobutton" />
 
             <Button
                 android:id="@+id/akkoordBtn"
                 android:layout_width="143dp"
                 android:layout_height="wrap_content"
                 android:background="@android:color/holo_green_dark"
-                android:text="Verstuur!"
+                android:text="@string/verstuur"
                 android:textColor="@android:color/white" />
         </RadioGroup>
     </LinearLayout>
