@@ -56,4 +56,6 @@
     <string name="radiobutton">RadioButton</string>
     <string name="verstuur">Verstuur!</string>
     <string name="avatar">avatar</string>
+    <string name="welkom">Welkom,</string>
+    <string name="marcel">Marcel</string>
 </resources>
