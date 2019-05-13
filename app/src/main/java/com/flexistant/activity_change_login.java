@@ -11,6 +11,7 @@ public class activity_change_login extends AppCompatActivity {
         setContentView(R.layout.activity_change_login);
     }
 
+
     public void passwordChanged() {
         // wanneer de gebruiker de save knop indrukt, en beide wachtwoorden overeen komen, dan wordt
         // de het wachtwoord van de gebruiker aangepast, en wordt hij naar of de login activity

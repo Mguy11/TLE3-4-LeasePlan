@@ -18,12 +18,12 @@ class LoginFormState {
         this.isDataValid = false;
     }
 
+
     LoginFormState(boolean isDataValid) {
         this.usernameError = null;
         this.passwordError = null;
         this.isDataValid = isDataValid;
     }
-
     @Nullable
     Integer getUsernameError() {
         return usernameError;
