@@ -72,5 +72,10 @@
     <string name="radiobutton_activityVervoersmiddelen3">Vraag 3</string>
     <string name="radiobutton_activityVervoersmiddelen4">Vraag 4</string>
 
+    <!--Strings voor Activity PrivacyStatement-->
+    <string name="PrivacyStatement">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada finibus rutrum. Nam vitae felis felis. Pellentesque laoreet porttitor eleifend. In eget arcu vel nulla cursus ullamcorper et sed eros. Vestibulum a eros vulputate, consectetur odio sed, tempus lorem. Praesent in orci vel eros eleifend egestas et vitae nisi. Sed tempus auctor dui eget maximus. Suspendisse viverra lacinia urna et feugiat. Nullam non tincidunt sem, in cursus diam. Quisque sagittis nisl venenatis, blandit nunc a, malesuada sem. Vestibulum tincidunt convallis dui, eu dignissim nulla accumsan a. Ut placerat tortor ex, ut ullamcorper nibh lacinia hendrerit. Fusce ex ligula, bibendum vitae suscipit non, suscipit sit amet elit.
+
+Curabitur hendrerit nunc non consectetur consectetur. Nulla ac sem id risus suscipit feugiat. Nulla id purus nisl. Sed imperdiet, leo eu eleifend fringilla, diam orci feugiat augue, ac porttitor nibh dolor id turpis. Mauris sed dapibus nibh, non semper nunc. Mauris lacinia, purus non feugiat consequat, ligula turpis vehicula velit, sit amet molestie metus dui id nibh. Aenean porta libero in dignissim tristique. Nulla ac diam eget risus sodales condimentum quis ut tellus. Nulla porttitor leo nisi, quis laoreet justo tincidunt sit amet. In blandit tempus sem et varius. Pellentesque a ligula eu justo consequat molestie. Nunc ac nulla lectus.</string>
+
 
 </resources>
