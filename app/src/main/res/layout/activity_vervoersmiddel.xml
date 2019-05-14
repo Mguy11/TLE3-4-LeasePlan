@@ -6,6 +6,83 @@
     android:layout_height="match_parent"
     tools:context=".activity_vervoersmiddel">
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/colorRed"
+        android:clickable="true"
+        app:backgroundTint="@color/colorRed"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/avatar"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/akkoordBtn"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/verstuur"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/akkoordBtn"
+        tools:layout_editor_absoluteX="8dp">
+
+        <RadioButton
+            android:id="@+id/vraag1RB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5dp"
+            android:text="@string/radiobutton_activityVervoersmiddelen1" />
+
+        <RadioButton
+            android:id="@+id/vraag2RB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5dp"
+            android:text="@string/radiobutton_activityVervoersmiddelen2" />
+
+        <RadioButton
+            android:id="@+id/vraag3RB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5dp"
+            android:text="@string/radiobutton_activityVervoersmiddelen3" />
+
+        <RadioButton
+            android:id="@+id/vraag4RB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5dp"
+            android:text="@string/radiobutton_activityVervoersmiddelen4" />
+
+    </RadioGroup>
+
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
         android:layout_width="0dp"
@@ -16,77 +93,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/navigation" />
+        app:menu="@menu/navigation" >
 
-    <LinearLayout
-        android:id="@+id/popUp"
-        android:layout_width="395dp"
-        android:layout_height="597dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/navigation"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/floatingActionButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            app:srcCompat="@color/colorRed" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/avatar"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="371dp"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="159dp">
-
-            <RadioButton
-                android:id="@+id/vraag1RB"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/radiobutton" />
-
-            <RadioButton
-                android:id="@+id/vraag2RB"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/radiobutton" />
-
-            <RadioButton
-                android:id="@+id/vraag3RB"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/radiobutton" />
-
-            <RadioButton
-                android:id="@+id/vraag4RB"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/radiobutton" />
-
-            <Button
-                android:id="@+id/akkoordBtn"
-                android:layout_width="143dp"
-                android:layout_height="wrap_content"
-                android:background="@android:color/holo_green_dark"
-                android:text="@string/verstuur"
-                android:textColor="@android:color/white" />
-        </RadioGroup>
-    </LinearLayout>
+    </android.support.design.widget.BottomNavigationView>
 
 
 </android.support.constraint.ConstraintLayout>

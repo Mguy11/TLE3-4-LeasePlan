@@ -22,7 +22,6 @@
         android:id="@+id/popUp"
         android:layout_width="395dp"
         android:layout_height="597dp"
-        android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/navigation"
@@ -31,11 +30,13 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/floatingActionButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/exitBtn"
+            android:layout_width="70dp"
+            android:layout_height="93dp"
             android:clickable="true"
-            app:srcCompat="@color/colorRed" />
+            android:textAlignment="center"
+            app:srcCompat="@color/colorRed"
+            app:useCompatPadding="false" />
 
     </LinearLayout>
 

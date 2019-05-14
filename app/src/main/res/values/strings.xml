@@ -65,4 +65,12 @@
     <string name="invalid_username">Geen geldig wachtwoord</string>
     <string name="invalid_password">Wachtwoord moet minimaal 5 karakters hebben</string>
     <string name="login_failed">"Login mislukt"</string>
+
+    <!--Strings voor Activity vervoersmiddelen-->
+    <string name="radiobutton_activityVervoersmiddelen1">Vraag 1</string>
+    <string name="radiobutton_activityVervoersmiddelen2">Vraag 2</string>
+    <string name="radiobutton_activityVervoersmiddelen3">Vraag 3</string>
+    <string name="radiobutton_activityVervoersmiddelen4">Vraag 4</string>
+
+
 </resources>
