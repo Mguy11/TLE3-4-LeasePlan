@@ -24,8 +24,8 @@ public class LoginDataSource {
     }
 
 //Comment in voor logout functie
-//    public void logout() {
-//        //revoke authentication
-//
-//    }
+    public void logout() {
+        //revoke authentication
+
+    }
 }
