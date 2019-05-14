@@ -77,5 +77,9 @@
 
 Curabitur hendrerit nunc non consectetur consectetur. Nulla ac sem id risus suscipit feugiat. Nulla id purus nisl. Sed imperdiet, leo eu eleifend fringilla, diam orci feugiat augue, ac porttitor nibh dolor id turpis. Mauris sed dapibus nibh, non semper nunc. Mauris lacinia, purus non feugiat consequat, ligula turpis vehicula velit, sit amet molestie metus dui id nibh. Aenean porta libero in dignissim tristique. Nulla ac diam eget risus sodales condimentum quis ut tellus. Nulla porttitor leo nisi, quis laoreet justo tincidunt sit amet. In blandit tempus sem et varius. Pellentesque a ligula eu justo consequat molestie. Nunc ac nulla lectus.</string>
 
+    <!--Strings voor activity Melding-->
+    <string name="Vraag1ActivityMelding">Melding vraag 1</string>
+    <string name="Vraag2ActivityMelding">Melding vraag 2</string>
+
 
 </resources>
