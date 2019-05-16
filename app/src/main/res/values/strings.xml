@@ -18,7 +18,9 @@
     <string name="textview">TextView</string>
     <string name="ja">Ja</string>
     <string name="nee">Nee</string>
-    <string name="test">test</string>
+    <string name="placeholder_log_in">login</string>
+    <string name="placeholder_profile">profile</string>
+    <string name="placeholder_settings">settings</string>
     <string name="button_facturen_bekijken">button_facturen_bekijken</string>
     <string name="button_auto_leasen">button_auto_leasen</string>
     <string name="auto">auto</string>
