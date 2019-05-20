@@ -57,28 +57,24 @@
             android:id="@+id/vraag1RB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="5dp"
             android:text="@string/radiobutton_activityVervoersmiddelen1" />
 
         <RadioButton
             android:id="@+id/vraag2RB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="5dp"
             android:text="@string/radiobutton_activityVervoersmiddelen2" />
 
         <RadioButton
             android:id="@+id/vraag3RB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="5dp"
             android:text="@string/radiobutton_activityVervoersmiddelen3" />
 
         <RadioButton
             android:id="@+id/vraag4RB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="5dp"
             android:text="@string/radiobutton_activityVervoersmiddelen4" />
 
     </RadioGroup>
